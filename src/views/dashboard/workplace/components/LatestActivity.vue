@@ -104,7 +104,7 @@
 </template> -->
 <template>
   <div>
-    <img src="D:\IPBD\Front-codes\continew-front\.image\screenshot\黍.png" width="1100px" height="600px">
+    <img src="\.image\screenshot\黍.png" width="1100px" height="600px">
   </div>
 </template>
 
