@@ -34,7 +34,7 @@ export function genPreview(tableNames: Array<string>) {
 /** @desc 生成代码 */
 export function downloadCode(tableNames: Array<string>) {
   return http.requestNative({
-    url: `${BASE_URL}/${tableNames}/download`,
+    url: `${BASE_URL}/${tableNames}`,
     method: 'post',
     responseType: 'blob',
   })
