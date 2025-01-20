@@ -35,7 +35,8 @@ export default defineConfig(({ command, mode }) => {
       proxy: {
         '/api': {
           // target: env.VITE_API_BASE_URL, // 后台服务器地址
-          target: 'http://47.100.198.147:20070',
+          // TODO 修改为 'http://47.100.198.147:20070'
+          target: env.VITE_API_BASE_URL,
           changeOrigin: true, // 是否允许不同源
           secure: false, // 支持https
           rewrite: (path) => path.replace(/^\/api/, ''),
